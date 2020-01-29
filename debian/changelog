@@ -1,3 +1,9 @@
+libappindicator (0.4.92.8mint) UNRELEASED; urgency=medium
+
+  * remove rev from version
+
+ -- Michael Webster <michael@lmde4-p51>  Wed, 29 Jan 2020 09:31:06 -0500
+
 libappindicator (0.4.92-7) unstable; urgency=medium
 
   * QA upload.
