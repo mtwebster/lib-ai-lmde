@@ -1,5 +1,6 @@
 debian/.debhelper
 debian/tmp
+debian/*.substvars
 build/*
 build-gtk3/*
 autom4te.cache

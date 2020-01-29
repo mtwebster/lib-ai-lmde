@@ -21,7 +21,8 @@ Build-Depends: debhelper (>= 10.0),
                gir1.2-gtk-2.0,
                gir1.2-gtk-3.0,
                dh-autoreconf,
-               valac (>= 0.20)
+               valac (>= 0.20),
+               libxapp-dev (>= 1.6.0)
 Standards-Version: 4.1.0
 Homepage: https://launchpad.net/libappindicator
 
