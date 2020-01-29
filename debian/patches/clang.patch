@@ -1,0 +1,15 @@
+--- libappindicator-0.4.92.orig/src/app-indicator.c
++++ libappindicator-0.4.92/src/app-indicator.c
+@@ -196,9 +196,9 @@ static void bus_creation (GObject * obj,
+ static void bus_watcher_ready (GObject * obj, GAsyncResult * res, gpointer user_data);
+ 
+ static const GDBusInterfaceVTable item_interface_table = {
+-	method_call:    bus_method_call,
+-	get_property:   bus_get_prop,
+-	set_property:   NULL /* No properties that can be set */
++	.method_call = bus_method_call,
++	.get_property = bus_get_prop,
++	.set_property = NULL /* No properties that can be set */
+ };
+ 
+ /* GObject type */

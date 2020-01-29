@@ -1,0 +1,11 @@
+--- libappindicator-0.4.92.orig/docs/reference/Makefile.am
++++ libappindicator-0.4.92/docs/reference/Makefile.am
+@@ -33,7 +33,7 @@ DOC_MAIN_SGML_FILE=$(DOC_MODULE)-docs.sg
+ DOC_SOURCE_DIR=../../src
+ 
+ # Extra options to pass to gtkdoc-scangobj. Not normally needed.
+-SCANGOBJ_OPTIONS=--nogtkinit --type-init-func="g_type_init()"
++SCANGOBJ_OPTIONS=--type-init-func="g_type_init()"
+ 
+ # Extra options to supply to gtkdoc-scan.
+ # e.g. SCAN_OPTIONS=--deprecated-guards="GTK_DISABLE_DEPRECATED"
