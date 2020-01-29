@@ -1,6 +1,0 @@
-optional-mono.patch
-clang.patch
-no-noinitgtk.patch
-Remove-unnecessary-GObject-cast.patch
-Disable-legacy-Python-bindings.patch
-no-Werror-deprecated
